@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CRUS - Upcoming Matches</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- Video Background -->
+    <video class="video-background" autoplay muted loop>
+        <source src="Game.mp4" type="video/mp4">
+    </video>
+    <div class="video-overlay"></div>
+    <!-- Navigation -->
+    <header>
+        <nav class="navbar">
+            <div class="nav-container">
+                <div class="logo">
+                    <div class="logo-text">CRUS LEGEND</div>
+                </div>
+                <button class="burger" id="burger-menu" type="button" aria-label="Toggle navigation" aria-expanded="false">
+                    <span class="burger-bar"></span>
+                    <span class="burger-bar"></span>
+                    <span class="burger-bar"></span>
+                </button>
+                <ul class="nav-links" id="nav-links">
+                    <li><a href="index.html" class="nav-link">HOME</a></li>
+                    <li><a href="player.html" class="nav-link active" aria-current="page">PLAYER</a></li>
+                    <li><a href="jersey.html" class="nav-link">JERSEY</a></li>
+                    <li><a href="schedule.html" class="nav-link">SCHEDULE</a></li>
+                    <li><a href="about.html" class="nav-link">ABOUT</a></li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+
+    <!-- Main Content -->
+    <main class="main-content">
+        <section id="schedule" class="section active">
+            <h2 style="text-align: center; margin-bottom: 2rem; color: #00ffff; font-size: 2.5rem;">UPCOMING MATCHES</h2>
+            <p style="text-align: center; color: #ccc;">Stay tuned for our next matches!</p>
+            <div style="text-align: center; margin-top: 2rem;">
+                <a href="#" class="btn">View Full Schedule</a>
+            </div>
+        </section>
+    </main>
+
+    <script src="script.js"></script>
+</body>
+</html>
