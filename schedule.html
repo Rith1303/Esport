@@ -38,58 +38,106 @@
     <!-- Main Content -->
     <main class="main-content">
         <section id="schedule" class="section active">
-            <h2 style="text-align: center; margin-bottom: 3rem; color: #00ffff; font-size: 2.5rem;">COMING MATCHES</h2>
+            <h2 style="text-align: center; margin-bottom: 3rem; color: #00ffff; font-size: 2.5rem; text-shadow: 0 0 20px rgba(0, 255, 255, 0.3);">🎮 COMING MATCHES</h2>
             
             <div class="matches-container">
-                <!-- Match 1 -->
-                <div class="match-card">
-                    <div class="match-card-header">
-                        <div>
-                            <span class="label">Match day</span>
-                            <span class="date">04 May 2026</span>
-                        </div>
-                        <span class="time">10:00 PM</span>
+                <!-- Match 1 - Completed Match -->
+                <div class="esports-match-card match-completed">
+                    <div class="match-status-ribbon">COMPLETED</div>
+                    
+                    <div class="match-date-header">
+                        <span class="match-day">📅 04 May 2026</span>
+                        <span class="match-time">⏰ 10:00 PM</span>
                     </div>
-                    <div class="match-card-body">
-                        <div class="teams-row">
-                            <div class="team-block">
-                                <span class="team-name">Crus Legend</span>
-                                <span class="score">3</span>
-                                <span class="badge badge-win">Winner</span>
+
+                    <div class="match-body-esports">
+                        <div class="esports-teams-container">
+                            <!-- Team 1 -->
+                            <div class="esports-team-section team-winner">
+                                <div class="team-logo-wrapper">
+                                    <div class="team-logo">CL</div>
+                                </div>
+                                <div class="team-info">
+                                    <div class="team-name-esports">Crus Legend</div>
+                                    <div class="team-region">Cambodia</div>
+                                </div>
+                                <div class="team-score-large">3</div>
+                                <span class="team-status-badge win-badge">🏆 WINNER</span>
                             </div>
-                            <div class="vs-sep">:</div>
-                            <div class="team-block">
-                                <span class="team-name">Master Skert</span>
-                                <span class="score dim">0</span>
-                                <span class="badge badge-loss">Defeated</span>
+
+                            <!-- VS Divider -->
+                            <div class="esports-vs-divider">
+                                <span class="vs-text">VS</span>
+                            </div>
+
+                            <!-- Team 2 -->
+                            <div class="esports-team-section team-loser">
+                                <div class="team-logo-wrapper">
+                                    <div class="team-logo">MS</div>
+                                </div>
+                                <div class="team-info">
+                                    <div class="team-name-esports">Master Skert</div>
+                                    <div class="team-region">Thailand</div>
+                                </div>
+                                <div class="team-score-large">0</div>
+                                <span class="team-status-badge loss-badge">❌ DEFEATED</span>
                             </div>
                         </div>
+                    </div>
+
+                    <div class="match-footer">
+                        <span class="match-type">🎮 BEST OF 3</span>
+                        <span class="tournament-icon">🏅 League Finals</span>
                     </div>
                 </div>
 
-                <!-- Match 2 -->
-                <div class="match-card">
-                    <div class="match-card-header">
-                        <div>
-                            <span class="label">Match day</span>
-                            <span class="date">05 May 2026</span>
-                        </div>
-                        <span class="time">10:00 PM</span>
+                <!-- Match 2 - Upcoming Match -->
+                <div class="esports-match-card match-upcoming">
+                    <div class="match-status-ribbon upcoming-ribbon">UPCOMING</div>
+                    
+                    <div class="match-date-header">
+                        <span class="match-day">📅 05 May 2026</span>
+                        <span class="match-time">⏰ 10:00 PM</span>
                     </div>
-                    <div class="match-card-body">
-                        <div class="teams-row">
-                            <div class="team-block">
-                                <span class="team-name">Crus Legend</span>
-                                <span class="score">0</span>
-                                <span class="badge badge-win">???</span>
+
+                    <div class="match-body-esports">
+                        <div class="esports-teams-container">
+                            <!-- Team 1 -->
+                            <div class="esports-team-section">
+                                <div class="team-logo-wrapper">
+                                    <div class="team-logo">CL</div>
+                                </div>
+                                <div class="team-info">
+                                    <div class="team-name-esports">Crus Legend</div>
+                                    <div class="team-region">Cambodia</div>
+                                </div>
+                                <div class="team-score-large upcoming-score">?</div>
+                                <span class="team-status-badge loss-badge">⏳ UPCOMING</span>
                             </div>
-                            <div class="vs-sep">:</div>
-                            <div class="team-block">
-                                <span class="team-name">Rockie Rocket</span>
-                                <span class="score dim">0</span>
-                                <span class="badge badge-loss">???</span>
+
+                            <!-- VS Divider -->
+                            <div class="esports-vs-divider">
+                                <span class="vs-text">VS</span>
+                            </div>
+
+                            <!-- Team 2 -->
+                            <div class="esports-team-section">
+                                <div class="team-logo-wrapper">
+                                    <div class="team-logo">RR</div>
+                                </div>
+                                <div class="team-info">
+                                    <div class="team-name-esports">Rockie Rocket</div>
+                                    <div class="team-region">Vietnam</div>
+                                </div>
+                                <div class="team-score-large upcoming-score">?</div>
+                                <span class="team-status-badge loss-badge">⏳ UPCOMING</span>
                             </div>
                         </div>
+                    </div>
+
+                    <div class="match-footer">
+                        <span class="match-type">🎮 BEST OF 5</span>
+                        <span class="tournament-icon">🏅 Playoff Rounds</span>
                     </div>
                 </div>
             </div>
