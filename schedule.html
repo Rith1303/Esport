@@ -3,7 +3,6 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="icon" type="image/x-icon" href="lgo1.png">
     <title>CRUS - Upcoming Matches</title>
     <link rel="stylesheet" href="styles.css">
 </head>
@@ -39,144 +38,100 @@
     <!-- Main Content -->
     <main class="main-content">
         <section id="schedule" class="section active">
-            <div class="schedule-header">
-                <h2 class="schedule-title">UPCOMING MATCHES</h2>
-                <p class="schedule-subtitle">Follow our esports tournaments and matches</p>
-            </div>
+            <h2 style="text-align: center; margin-bottom: 3rem; color: #00ffff; font-size: 2.5rem; text-shadow: 0 0 20px rgba(0, 255, 255, 0.3);">🎮 COMING MATCHES</h2>
             
             <div class="matches-container">
                 <!-- Match 1 - Completed Match -->
-                <div class="match-card match-card--completed">
-                    <div class="match-card__ribbon match-card__ribbon--completed">COMPLETED</div>
+                <div class="esports-match-card match-completed">
+                    <div class="match-status-ribbon">COMPLETED</div>
                     
-                    <div class="match-card__header">
-                        <div class="match-card__date-time">
-                            <span class="match-card__date">04 May 2026</span>
-                            <span class="match-card__time">10:00 PM</span>
-                        </div>
+                    <div class="match-date-header">
+                        <span class="match-day">📅 04 May 2026</span>
+                        <span class="match-time">⏰ 10:00 PM</span>
                     </div>
 
-                    <div class="match-card__body">
-                        <div class="match-card__teams">
+                    <div class="match-body-esports">
+                        <div class="esports-teams-container">
                             <!-- Team 1 -->
-                            <div class="team-card team-card--winner">
-                                <div class="team-card__logo-wrapper">
-                                    <div class="team-card__logo">CRUS</div>
+                            <div class="esports-team-section team-winner">
+                                <div class="team-logo-wrapper">
+                                    <div class="team-logo">CRUS</div>
                                 </div>
-                                <h3 class="team-card__name">Crus Legend</h3>
-                                <div class="team-card__score">3</div>
-                                <span class="team-card__badge team-card__badge--win">🏆 WINNER</span>
+                                <div class="team-info">
+                                    <div class="team-name-esports">Crus Legend</div>
+                                </div>
+                                <div class="team-score-large">3</div>
+                                <span class="team-status-badge win-badge">🏆 WINNER</span>
                             </div>
 
                             <!-- VS Divider -->
-                            <div class="match-card__divider">
-                                <span class="match-card__vs">VS</span>
+                            <div class="esports-vs-divider">
+                                <span class="vs-text">VS</span>
                             </div>
 
                             <!-- Team 2 -->
-                            <div class="team-card team-card--loser">
-                                <div class="team-card__logo-wrapper">
-                                    <div class="team-card__logo">MTR</div>
+                            <div class="esports-team-section team-loser">
+                                <div class="team-logo-wrapper">
+                                    <div class="team-logo">MTR</div>
                                 </div>
-                                <h3 class="team-card__name">Master Skert</h3>
-                                <div class="team-card__score">0</div>
-                                <span class="team-card__badge team-card__badge--loss">❌ DEFEATED</span>
+                                <div class="team-info">
+                                    <div class="team-name-esports">Master Skert</div>
+                                </div>
+                                <div class="team-score-large">0</div>
+                                <span class="team-status-badge loss-badge">❌ DEFEATED</span>
                             </div>
                         </div>
                     </div>
 
-                    <div class="match-card__footer">
-                        <span class="match-card__format">🎮 BEST OF 5</span>
+                    <div class="match-footer">
+                        <span class="match-type">🎮 BEST OF 5</span>
                     </div>
                 </div>
 
-                <!-- Match 2 - Cancelled Match -->
-                <div class="match-card match-card--cancelled">
-                    <div class="match-card__ribbon match-card__ribbon--cancelled">CANCELLED</div>
+                <!-- Match 2 - Upcoming Match -->
+                <div class="esports-match-card match-upcoming">
+                    <div class="match-status-ribbon upcoming-ribbon">UPCOMING</div>
                     
-                    <div class="match-card__header">
-                        <div class="match-card__date-time">
-                            <span class="match-card__date">05 May 2026</span>
-                            <span class="match-card__time">10:00 PM</span>
-                        </div>
+                    <div class="match-date-header">
+                        <span class="match-day">📅 05 May 2026</span>
+                        <span class="match-time">⏰ 10:00 PM</span>
                     </div>
 
-                    <div class="match-card__body">
-                        <div class="match-card__teams">
+                    <div class="match-body-esports">
+                        <div class="esports-teams-container">
                             <!-- Team 1 -->
-                            <div class="team-card team-card--neutral">
-                                <div class="team-card__logo-wrapper">
-                                    <div class="team-card__logo">CRUS</div>
+                            <div class="esports-team-section">
+                                <div class="team-logo-wrapper">
+                                    <div class="team-logo">CRUS</div>
                                 </div>
-                                <h3 class="team-card__name">Crus Legend</h3>
-                                <div class="team-card__score team-card__score--unavailable">-</div>
-                                <span class="team-card__badge team-card__badge--neutral">⏳ PENDING</span>
+                                <div class="team-info">
+                                    <div class="team-name-esports">Crus Legend</div>
+                                </div>
+                                <div class="team-score-large upcoming-score">?</div>
+                                <span class="team-status-badge loss-badge">⏳ UPCOMING</span>
                             </div>
 
                             <!-- VS Divider -->
-                            <div class="match-card__divider">
-                                <span class="match-card__vs">VS</span>
+                            <div class="esports-vs-divider">
+                                <span class="vs-text">VS</span>
                             </div>
 
                             <!-- Team 2 -->
-                            <div class="team-card team-card--neutral">
-                                <div class="team-card__logo-wrapper">
-                                    <div class="team-card__logo">ROCK</div>
+                            <div class="esports-team-section">
+                                <div class="team-logo-wrapper">
+                                    <div class="team-logo">ROCK</div>
                                 </div>
-                                <h3 class="team-card__name">Rockie Rocket</h3>
-                                <div class="team-card__score team-card__score--unavailable">-</div>
-                                <span class="team-card__badge team-card__badge--neutral">⏳ PENDING</span>
+                                <div class="team-info">
+                                    <div class="team-name-esports">Rockie Rocket</div>
+                                </div>
+                                <div class="team-score-large upcoming-score">?</div>
+                                <span class="team-status-badge loss-badge">⏳ UPCOMING</span>
                             </div>
                         </div>
                     </div>
 
-                    <div class="match-card__footer">
-                        <span class="match-card__format">🎮 BEST OF 5</span>
-                    </div>
-                </div>
-
-                <!-- Match 3 - Upcoming Match -->
-                <div class="match-card match-card--upcoming">
-                    <div class="match-card__ribbon match-card__ribbon--upcoming">LIVE SOON</div>
-                    
-                    <div class="match-card__header">
-                        <div class="match-card__date-time">
-                            <span class="match-card__date">10 May 2026</span>
-                            <span class="match-card__time">08:00 PM</span>
-                        </div>
-                    </div>
-
-                    <div class="match-card__body">
-                        <div class="match-card__teams">
-                            <!-- Team 1 -->
-                            <div class="team-card team-card--neutral">
-                                <div class="team-card__logo-wrapper">
-                                    <div class="team-card__logo">CRUS</div>
-                                </div>
-                                <h3 class="team-card__name">Crus Legend</h3>
-                                <div class="team-card__score team-card__score--unavailable">-</div>
-                                <span class="team-card__badge team-card__badge--neutral">🎮 READY</span>
-                            </div>
-
-                            <!-- VS Divider -->
-                            <div class="match-card__divider">
-                                <span class="match-card__vs">VS</span>
-                            </div>
-
-                            <!-- Team 2 -->
-                            <div class="team-card team-card--neutral">
-                                <div class="team-card__logo-wrapper">
-                                    <div class="team-card__logo">PRO</div>
-                                </div>
-                                <h3 class="team-card__name">Pro Titans</h3>
-                                <div class="team-card__score team-card__score--unavailable">-</div>
-                                <span class="team-card__badge team-card__badge--neutral">🎮 READY</span>
-                            </div>
-                        </div>
-                    </div>
-
-                    <div class="match-card__footer">
-                        <span class="match-card__format">🎮 BEST OF 5</span>
+                    <div class="match-footer">
+                        <span class="match-type">🎮 BEST OF 5</span>
                     </div>
                 </div>
             </div>
